@@ -1,0 +1,10 @@
+streamlit>=1.35.0
+requests>=2.31.0
+feedparser>=6.0.11
+python-dotenv>=1.0.1
+pandas>=2.2.0
+
+# Pick ONE (or more) of these depending on which client you use in app.py:
+#anthropic>=0.34.0          # for claude_client.py (paid)
+google-genai>=1.0.0   # for gemini_client.py (free)
+groq>=0.11.0                # for groq_client.py (free)
